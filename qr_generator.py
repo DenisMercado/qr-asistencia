@@ -1,6 +1,6 @@
 import qrcode
 
-url="http://127.0.0.1:5000/asistencia"
+url="https://qr-asistencia.onrender.com/asistencia"
 
 img=qrcode.make(url)
 
