@@ -2,7 +2,7 @@ from flask import Flask, redirect
 
 app= Flask(__name__)
 
-URL_formulario="https://docs.google.com/forms/d/e/1FAIpQLSd_BjAFrGLae9yZQ6RdUUKB0tF1ZiL9MqJvB5wpnoqTEbryDA/viewform"
+URL_formulario="https://docs.google.com/forms/d/1mbFEeeydMpK_gVDWsdW2rxg7usPKo0khom1ggEXEQUI/edit"
 
 @app.route('/asistencia')
 def asistencia ():
